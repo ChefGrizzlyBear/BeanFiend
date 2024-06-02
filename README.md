@@ -1,6 +1,6 @@
 # MeanBean
 
-Created to track your favorite concoctions and methods of brewing coffee and a community for to share and rate
+Created to track your favorite concoctions and methods of brewing coffee and a community for you to share and rate
 
 ## Environment
 
