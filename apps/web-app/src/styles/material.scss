@@ -1,0 +1,63 @@
+@use '@angular/material' as mat;
+
+@include mat.core();
+
+// Define a dark theme
+$dark-theme: mat.define-theme(
+  (
+    color: (
+      theme-type: dark,
+      primary: mat.$azure-palette,
+      tertiary: mat.$orange-palette,
+    ),
+    typography: (
+      plain-family: 'Roboto, sans-serif',
+    ),
+    density: (
+      scale: -1,
+    ),
+  )
+);
+
+// Define a light theme
+$light-theme: mat.define-theme(
+  (
+    color: (
+      theme-type: light,
+      primary: mat.$azure-palette,
+      tertiary: mat.$violet-palette,
+    ),
+  )
+);
+
+html {
+  // Apply the dark theme by default
+  @include mat.all-component-themes($dark-theme);
+  // Apply the light theme only when the user prefers light themes.
+  @media (prefers-color-scheme: light) {
+    // Use the `-color` mixins to only apply color styles without reapplying the same
+    // typography and density styles.
+    @include mat.all-component-colors($light-theme);
+  }
+}
+
+:root {
+  --mat-toolbar-container-background-color: #{mat.get-theme-color(
+      $light-theme,
+      primary-container
+    )};
+  --mat-sidenav-content-background-color: rgb(250, 250, 250);
+  @media (prefers-color-scheme: dark) {
+    --mat-sidenav-content-background-color: rgb(33, 33, 33);
+    --mat-toolbar-container-background-color: rgb(40, 40, 40);
+    --mat-toolbar-container-text-color: rgba(255, 255, 255, 0.75);
+  }
+
+  --mat-toolbar-standard-height: 56px;
+
+  .mat-mdc-form-field {
+    .mdc-notched-outline__notch {
+      border-right: none;
+    }
+  }
+}

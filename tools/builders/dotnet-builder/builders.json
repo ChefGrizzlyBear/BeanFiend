@@ -1,0 +1,29 @@
+{
+  "builders": {
+    "build": {
+      "implementation": "./dist/build",
+      "schema": "./src/build/schema.json",
+      "description": "Builds dotnet project."
+    },
+    "test": {
+      "implementation": "./dist/test",
+      "schema": "./src/test/schema.json",
+      "description": "Runs dotnet tests."
+    },
+    "publish": {
+      "implementation": "./dist/publish",
+      "schema": "./src/publish/schema.json",
+      "description": "Publishes dotnet project."
+    },
+    "run": {
+      "implementation": "./dist/run",
+      "schema": "./src/run/schema.json",
+      "description": "Runs dotnet project."
+    },
+    "watch": {
+      "implementation": "./dist/watch",
+      "schema": "./src/watch/schema.json",
+      "description": "Watches dotnet project."
+    }
+  }
+}
