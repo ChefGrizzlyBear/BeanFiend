@@ -10,6 +10,8 @@ Created to track your favorite concoctions and methods of brewing coffee and a c
 
 Built using [Nx monorepo](https://nx.dev/getting-started/tutorials/angular-monorepo-tutorial) with [Angular](https://angular.dev) and .NET 8.0 with [Microsoft.AspNetCore.SpaServices.Extensions](https://docs.microsoft.com/en-us/aspnet/core/client-side/spa/angular) and a pipeline for Azure DevOps.
 
+Designed to be able to be developed and tested directly in Github Codespaces
+
 __UI:__ Angular 18
 
 __Backend:__ .NET 8.0/C#(95%), nodeJS(5%)
