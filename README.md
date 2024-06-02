@@ -1,12 +1,8 @@
-[![Build status](https://freshpondmedia.visualstudio.com/FreshPondMediaGit/_apis/build/status/chrisjwalk.angular-cli-netcore-ngrx-starter)](https://freshpondmedia.visualstudio.com/FreshPondMediaGit/_build/latest?definitionId=43)
+# MeanBean
 
-# Nx + Angular + .NET 8.0
-
-This is basic demo of how to use a full stack [Nx monorepo](https://nx.dev/getting-started/tutorials/angular-monorepo-tutorial) with [Angular](https://angular.dev) and .NET 8.0 with [Microsoft.AspNetCore.SpaServices.Extensions](https://docs.microsoft.com/en-us/aspnet/core/client-side/spa/angular) and a demo Azure pipeline for Azure DevOps.
+Built using [Nx monorepo](https://nx.dev/getting-started/tutorials/angular-monorepo-tutorial) with [Angular](https://angular.dev) and .NET 8.0 with [Microsoft.AspNetCore.SpaServices.Extensions](https://docs.microsoft.com/en-us/aspnet/core/client-side/spa/angular) and a pipeline for Azure DevOps.
 
 ## Demo
-
-See a live demo here: [https://angularclinetcorengrxstarter.azurewebsites.net/](https://angularclinetcorengrxstarter.azurewebsites.net/)
 
 ## Getting Started?
 
