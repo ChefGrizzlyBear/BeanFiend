@@ -3,20 +3,22 @@
 Created to track your favorite concoctions and methods of brewing coffee and a community for you to share and rate
 
 ## Backlog/PM/Documents/ETC...
+
 [Trello Board](https://trello.com/b/IcgigO7O/beanfiend)
 
 [MIRO UI Wireframing](https://miro.com/app/board/uXjVKA5ixHo=/)
+
 ## Environment
 
 Built using [Nx monorepo](https://nx.dev/getting-started/tutorials/angular-monorepo-tutorial) with [Angular](https://angular.dev) and .NET 8.0 with [Microsoft.AspNetCore.SpaServices.Extensions](https://docs.microsoft.com/en-us/aspnet/core/client-side/spa/angular) and a pipeline for Azure DevOps.
 
 Designed to be able to be developed and tested directly in Github Codespaces
 
-__UI:__ Angular 18
+**UI:** Angular 18
 
-__Backend:__ .NET 8.0/C#(95%), nodeJS(5%)
+**Backend:** .NET 8.0/C#(95%), nodeJS(5%)
 
-__DB:__ SQLLite
+**DB:** SQLLite
 
 ## Demo
 
@@ -40,6 +42,12 @@ Make sure you have .NET 8.0 installed and/or the latest VS2022.
 > Note: Make sure you have the Angular CLI installed
 
     npm install -g @angular/cli
+
+## Cypress
+
+> Note: Make sure you have Cypress Installed
+
+npm i --save-dev @types/cypress
 
 ## Serve Development App
 
