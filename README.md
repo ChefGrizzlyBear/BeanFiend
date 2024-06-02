@@ -10,6 +10,12 @@ Created to track your favorite concoctions and methods of brewing coffee and a c
 
 Built using [Nx monorepo](https://nx.dev/getting-started/tutorials/angular-monorepo-tutorial) with [Angular](https://angular.dev) and .NET 8.0 with [Microsoft.AspNetCore.SpaServices.Extensions](https://docs.microsoft.com/en-us/aspnet/core/client-side/spa/angular) and a pipeline for Azure DevOps.
 
+__UI:__ Angular 18
+
+__Backend:__ .NET 8.0/C#(95%), nodeJS(5%)
+
+__DB:__ SQLLite
+
 ## Demo
 
 ## Getting Started?
@@ -26,6 +32,12 @@ Make sure you have .NET 8.0 installed and/or the latest VS2022.
 > Note: Make sure you have the C# extension & .NET Debugger installed.
 
     npm install
+
+## Angluar CLI
+
+> Note: Make sure you have the Angular CLI installed
+
+    npm install -g @angular/cli
 
 ## Serve Development App
 
